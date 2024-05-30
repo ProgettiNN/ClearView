@@ -12,7 +12,7 @@ const Navbar = ({ buttoncolor, image, btn,social,textcolor }:any) => {
   return (
     <nav className="flex justify-between px-4  absolute top-0 w-screen">
       <div className="relative">
-        <img className="h-24 w-24 object-fit" alt="main" src={image} key={image} />
+        <img className="h-24 w-24 object-fit" alt="main" src="./images/navbar.webp" key={image} />
       </div>
       <div className="flex gap-4 items-center ">
         <a href={btn.link}>
