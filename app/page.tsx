@@ -167,7 +167,7 @@ const About = ({ editedText, detailscolor, image }:any) => {
     >
       <div className="w-full flex pr-4 py-4 md:pr-16 md:py-16 relative order-2 sm:order-1">
         <img
-          className="rounded-xl aspect-square object-cover w-3/4 sm:w-full "
+          className="rounded-xl aspect-square object-cover w-3/4 sm:w-full ml-auto"
           alt="main"
           src="./images/about.webp"
           key={image}
