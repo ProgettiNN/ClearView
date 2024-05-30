@@ -10,7 +10,7 @@ const Navbar = ({ buttoncolor, image, btn,social,textcolor }:any) => {
   };
 
   return (
-    <nav className="flex justify-between px-4  absolute top-0 w-screen">
+    <nav className="flex justify-between px-4  absolute top-0 w-full">
       <div className="relative">
         <img className="h-24 w-24 object-fit" alt="main" src="./images/navbar.webp" key={image} />
       </div>
