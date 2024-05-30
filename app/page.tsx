@@ -102,7 +102,7 @@ const Header = ({ editedText, detailscolor, image }:any) => {
         <img
           className="rounded-xl aspect-square object-cover mx-auto w-2/3 sm:w-full"
           alt="main"
-          src={image}
+          src="./images/header.webp"
           key={image}
         />
         <div className="rounded-xl hidden md:block text-slate-200 h-28 w-28 -ml-12 -mt-12">
