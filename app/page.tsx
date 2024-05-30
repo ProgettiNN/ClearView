@@ -169,7 +169,7 @@ const About = ({ editedText, detailscolor, image }:any) => {
         <img
           className="rounded-xl aspect-square object-cover w-3/4 sm:w-full "
           alt="main"
-          src={image}
+          src="./images/about.webp"
           key={image}
         />
 
@@ -224,7 +224,7 @@ const Review = ({ editedText }:any) => {
             <p>{review.nome}</p>
             <img
               className="h-8 w-8 rounded-full"
-              src={`./photo/review${index+1}.webp`}
+              src={`./images/review${index+1}.webp`}
               alt={`review ${index}`}
             />
           </div>
