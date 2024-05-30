@@ -27,7 +27,7 @@ const Faq = ({ editedText, detailscolor }:any) => {
   };
 
   return (
-    <section className="flex flex-col gap-4 items-center flex-wrap justify-between w-full">
+    <section className="flex flex-col gap-4 items-center flex-wrap justify-between w-full p-4">
       {editedText.map((question:any, index:any) => (
         <div key={index} className="flex flex-col w-full max-w-screen-md">
           <h3
