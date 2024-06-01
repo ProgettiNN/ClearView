@@ -13,7 +13,7 @@ const App = () => {
     detailscolor,
     buttoncolor,
     font,
-    images,
+    photo,
     header,
     about,
     service,
@@ -37,19 +37,19 @@ const App = () => {
       >
         <Navbar
           buttoncolor={buttoncolor}
-          image={images.navbar}
+          image={photo.navbar}
           btn={btn1}
           social={social}
           textcolor={textcolor}
         />
         <Header
           editedText={header}
-          image={images.header}
+          image={photo.header}
           detailscolor={detailscolor}
         />
         <div className="h-20" />
         <About
-          image={images.about}
+          image={photo.about}
           editedText={about}
           detailscolor={detailscolor}
         />
@@ -102,7 +102,7 @@ const Header = ({ editedText, detailscolor, image }:any) => {
         <img
           className="rounded-xl aspect-square object-cover mx-auto w-2/3 sm:w-full"
           alt="main"
-          src="./images/header.webp"
+          src="./photo/header.webp"
           key={image}
         />
         <div className="rounded-xl hidden md:block text-slate-200 h-28 w-28 -ml-12 -mt-12">
@@ -169,7 +169,7 @@ const About = ({ editedText, detailscolor, image }:any) => {
         <img
           className="rounded-xl aspect-square object-cover w-3/4 sm:w-full ml-auto"
           alt="main"
-          src="./images/about.webp"
+          src="./photo/about.webp"
           key={image}
         />
 
@@ -224,7 +224,7 @@ const Review = ({ editedText }:any) => {
             <p>{review.nome}</p>
             <img
               className="h-8 w-8 rounded-full"
-              src={`./images/review${index+1}.webp`}
+              src={`./photo/review${index+1}.webp`}
               alt={`review ${index}`}
             />
           </div>
