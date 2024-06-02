@@ -13,7 +13,6 @@ const App = () => {
     detailscolor,
     buttoncolor,
     font,
-    photo,
     header,
     about,
     service,
@@ -37,19 +36,16 @@ const App = () => {
       >
         <Navbar
           buttoncolor={buttoncolor}
-          image={photo.navbar}
           btn={btn1}
           social={social}
           textcolor={textcolor}
         />
         <Header
           editedText={header}
-          image={photo.header}
           detailscolor={detailscolor}
         />
         <div className="h-20" />
         <About
-          image={photo.about}
           editedText={about}
           detailscolor={detailscolor}
         />
