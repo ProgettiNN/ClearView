@@ -237,7 +237,7 @@ const Cta = ({ editedText, buttoncolor, btn }:any) => {
       className="my-20 p-4 flex flex-col items-center justify-center"
     >
       <div className="flex flex-col ">
-        <h1 className="max-w-screen-md text-center p-4 text-xl">{editedText}</h1>
+        <h1 className="max-w-screen-md text-center p-4 text-2xl">{editedText}</h1>
 
         <a href={btn.link} className="min-w-min mx-auto">
           <button
