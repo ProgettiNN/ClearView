@@ -142,7 +142,7 @@ const Service = ({ editedText }:any) => {
     >
       {editedText.map((service:any, index:any) => {
         return (
-          <div key={index} className="flex flex-col  w-full gap-2 p-4 ">
+          <div key={index} className="flex flex-col  w-full gap-2 p-4 h-full">
             <h3 className="font-bold">
               {service.icon}
               {service.nome}
